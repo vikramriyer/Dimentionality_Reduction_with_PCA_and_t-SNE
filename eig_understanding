@@ -1,0 +1,10 @@
+- eigen vector is the direction along which the scalar/linear transformation of a input vector happens
+- a matrix can have as many eigen vectors as the number of dimensions i.e. 2*2 matrix has 2 eigen vectors, 3*3 will have 3 and n*n will bave n
+- useful in matric decomposition
+
+PCA
+- drop some low-variance data
+- Finding the eigenvectors and eigenvalues of the covariance matrix is the equivalent of fitting those straight, principal-component lines to the variance of the data
+- The above statement is true because, because eigenvectors trace the principal lines of force, and the axes of greatest variance and covariance illustrate where the data is most susceptible to change
+- so the eigen values just give the magnitude of the transformation that has happened along the direction of the variance or eigen vectors
+- corelation is like a normalized covariance where value is in range (-1,1)
